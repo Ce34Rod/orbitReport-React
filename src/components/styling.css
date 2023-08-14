@@ -1,4 +1,4 @@
-h1,
+header,
 p {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   text-align: center;
@@ -17,9 +17,11 @@ button {
   font-weight: bold;
 }
 
+
 .flex-container {
   display: flex;
   justify-content: center;
+
 }
 
 table {
@@ -39,9 +41,11 @@ th {
   color: white;
   text-align: center;
 }
+
 tr:nth-child(even) {
   background-color: #ddd;
 }
+
 tr:hover {
   background-color: #cacacb;
 }
@@ -51,7 +55,7 @@ td {
   padding: 8px;
 }
 
-h1 {
+header {
   padding: 50px;
   text-align: center;
   background: #5c94ce;
